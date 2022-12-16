@@ -12,3 +12,7 @@ The included experiments:
   2. Transferred to the CyberZoo environment with *dynamic / unseen* obstacles;
   3. Transferred to the Corridor environment.
 - With depth network trained & evaluated in the Corridor environment.
+
+## Source Code
+- `NanoDepth.py` contains the nano depth convolutional neural network framework written in PyTorch.
+- `bsm.py` contains the behavior state machine based on depth map for obstacle avoidance.
